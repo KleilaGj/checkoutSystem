@@ -3,7 +3,8 @@
 Implement the code for a basket that calculates the total price of a number of items. 
 Item A and B are multipriced (as shown below), so the total price must reflect this.
 
-Item	Unit Price (pence)	Special Price (pence)
+Item	Unit Price (pence)
+
 A	50	3 for 130
 
 B	30	2 for 45
