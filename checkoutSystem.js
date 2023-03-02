@@ -33,7 +33,7 @@ let itemCarray = []
 let itemDarray = []
 
 
-//METHODS
+    //METHODS
 
 
 const countItemA = (array, value) => {
@@ -101,18 +101,6 @@ const addToBasket = (product) => {
     return  basket.totalPrice
 };
 
-    // check if product is itemA
-    // if it is itemA, how many are there in the basket?
-    // %3 === 0
-    // if it is, apply relevant discount
-
-   
-
-    // check if product is itemB
-    // if it is itemB, how many are there in the basket?
-    // %2 === 0
-    // if it is, apply relevant dicount
-
 
 //ROUNDING
 const roundDownToNearest3 = (num) => {
@@ -120,13 +108,11 @@ const roundDownToNearest3 = (num) => {
   };
 
 
-
-
 const roundDownToNearest2 = (num) => {
     return Math.floor(num / 2) * 2;
   };
 
-
+//TESTING
   addToBasket(products[0])
   addToBasket(products[0])
   addToBasket(products[0])
@@ -168,20 +154,3 @@ const getBasketFinalPrice = (items) => {
 //     return
 //     basket.products = []
 //     basket.totalPrice = 0
-
-// };
-// console.log(clearBasket(basket))
-
-
-    //TESTING FUNCTIONS
-
-// addToBasket(products[0])
-// addToBasket(products[0])
-// addToBasket(products[0])
-// addToBasket(products[0])
-// // addToBasket(products[0])
-//  addToBasket(products[1])
-// addToBasket(products[1])
-// addToBasket(products[2])
-// addToBasket(products[3])
-// addToBasket(products[2])
