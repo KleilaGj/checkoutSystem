@@ -1,6 +1,17 @@
 ﻿# checkoutSystem
 **Brief**
-Write a short couple sentences explaining what the challenge was
+Implement the code for a basket that calculates the total price of a number of items. 
+Item A and B are multipriced (as shown below), so the total price must reflect this.
+
+Item	Unit Price (pence)	Special Price (pence)
+A	50	3 for 130
+
+B	30	2 for 45
+
+C	20	
+
+D	15
+
 **Goal**
 My goal was to build a checkout system that accepted price discounts as outlined in the brief
 
