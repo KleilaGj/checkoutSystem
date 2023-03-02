@@ -32,4 +32,4 @@ Though the core functionality is there, given more time I would have made the co
 I would also look to put all of my data objects in a separate file and all of my functions in a separate file and then import them into the main.js file.
 
 
-Rough time estimate to complete task: 
+Rough time estimate to complete task: 10 hours
