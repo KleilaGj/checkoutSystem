@@ -44,7 +44,7 @@ const countItemA = (array, value) => {
     itemAarray.push(n);
 }
 
-//
+
 
 const countItemB = (array, value) => {
     var n = 0;
@@ -54,7 +54,7 @@ const countItemB = (array, value) => {
     itemBarray.push(n);
 }
 
-//
+
 
 const countItemC = (array, value) => {
     var n = 0;
@@ -64,7 +64,6 @@ const countItemC = (array, value) => {
     itemCarray.push(n);
 }
 
-//
 
 const countItemD = (array, value) => {
     var n = 0;
@@ -74,7 +73,6 @@ const countItemD = (array, value) => {
     itemDarray.push(n);
 }
 
-// push into new array and count length
 
 const addToBasket = (product) => {
     basket.products.push(product);
@@ -105,12 +103,12 @@ const addToBasket = (product) => {
 //ROUNDING
 const roundDownToNearest3 = (num) => {
     return Math.floor(num / 3) * 3;
-  };
+};
 
 
 const roundDownToNearest2 = (num) => {
     return Math.floor(num / 2) * 2;
-  };
+};
 
 //TESTING
   addToBasket(products[0])
@@ -141,16 +139,8 @@ let itemBDiscountTotal = (((roundDownToNearest2(itemBarray.length)) / 2) *15);
 const getBasketFinalPrice = (items) => {
      
     return basket.totalPrice - (itemADiscountTotal + itemBDiscountTotal);
-
-    };
+};
     
 
- console.log(getBasketFinalPrice(basket.totalPrice))
-    
-
-
-// //EMPTY BASKET
-// const clearBasket = (basket) => {
-//     return
-//     basket.products = []
-//     basket.totalPrice = 0
+console.log(getBasketFinalPrice(basket.totalPrice))
+  
